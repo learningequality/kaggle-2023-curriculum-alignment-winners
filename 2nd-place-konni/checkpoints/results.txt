@@ -1,0 +1,112 @@
+Fold 0:
+
+--------------------[Model: sentence-transformers/LaBSE]--------------------
+
+------------------------------[Margin: 0.16]------------------------------
+
+Calculate Scores
+en  Score: 0.67132 - Precision: 0.63632 - Recall: 0.730 - Selected:   5 - (2806x65939)
+es  Score: 0.74010 - Precision: 0.67957 - Recall: 0.816 - Selected:   5 - (1177x30844)
+pt  Score: 0.76280 - Precision: 0.72438 - Recall: 0.821 - Selected:   6 - (343x10435)
+ar  Score: 0.53372 - Precision: 0.49097 - Recall: 0.668 - Selected:   4 - (318x7418)
+fr  Score: 0.58386 - Precision: 0.61473 - Recall: 0.622 - Selected:   7 - (304x10682)
+bg  Score: 0.66750 - Precision: 0.65842 - Recall: 0.717 - Selected:   7 - (242x6050)
+bn  Score: 0.17518 - Precision: 0.11923 - Recall: 0.226 - Selected:   6 - (237x2513)
+sw  Score: 0.72501 - Precision: 0.67009 - Recall: 0.777 - Selected:   5 - (209x1447)
+gu  Score: 0.74991 - Precision: 0.69056 - Recall: 0.813 - Selected:   5 - (181x3677)
+hi  Score: 0.67310 - Precision: 0.64141 - Recall: 0.745 - Selected:   6 - (138x4042)
+it  Score: 0.87489 - Precision: 0.87638 - Recall: 0.899 - Selected:   4 - (73x1300)
+zh  Score: 0.59875 - Precision: 0.54591 - Recall: 0.689 - Selected:   9 - (68x3849)
+mr  Score: 0.66348 - Precision: 0.60812 - Recall: 0.731 - Selected:   9 - (24x999)
+fil Score: 0.79579 - Precision: 0.71005 - Recall: 0.872 - Selected:   7 - (23x516)
+as  Score: 0.63700 - Precision: 0.57221 - Recall: 0.697 - Selected:   5 - (13x641)
+my  Score: 0.80724 - Precision: 0.79444 - Recall: 0.900 - Selected:   3 - (12x206)
+km  Score: 0.95289 - Precision: 0.95455 - Recall: 0.958 - Selected:   4 - (11x505)
+kn  Score: 0.64300 - Precision: 0.54083 - Recall: 0.738 - Selected:   9 - (9x501)
+te  Score: 0.85022 - Precision: 0.81689 - Recall: 0.870 - Selected:  11 - (7x285)
+or  Score: 0.87740 - Precision: 0.76000 - Recall: 0.933 - Selected:   8 - (5x326)
+ta  Score: 0.92391 - Precision: 0.78929 - Recall: 1.000 - Selected:   6 - (5x216)
+ur  Score: 0.32724 - Precision: 0.28333 - Recall: 0.348 - Selected:   9 - (5x245)
+pnb Score: 0.86458 - Precision: 0.71875 - Recall: 0.938 - Selected:   9 - (4x184)
+ru  Score: 0.69109 - Precision: 0.69048 - Recall: 0.733 - Selected:  10 - (3x188)
+pl  Score: 0.68666 - Precision: 0.99087 - Recall: 0.655 - Selected:  28 - (3x319)
+swa Score: 0.14349 - Precision: 0.11085 - Recall: 0.278 - Selected:  31 - (3x495)
+tr  Score: 0.71821 - Precision: 0.98148 - Recall: 0.677 - Selected:  20 - (3x225)
+--------------------------------------------------------------------------------
+Eval Score: 0.66603 - Precision: 0.62776 - Recall: 0.730
+--------------------------------------------------------------------------------
+
+-------[Model: sentence-transformers/paraphrase-multilingual-mpnet-base-v2]-------
+
+------------------------------[Margin: 0.16]------------------------------
+
+Calculate Scores
+en  Score: 0.66757 - Precision: 0.62306 - Recall: 0.733 - Selected:   6 - (2806x65939)
+es  Score: 0.74782 - Precision: 0.68274 - Recall: 0.824 - Selected:   5 - (1177x30844)
+pt  Score: 0.79341 - Precision: 0.72326 - Recall: 0.865 - Selected:   6 - (343x10435)
+ar  Score: 0.47037 - Precision: 0.45534 - Recall: 0.636 - Selected:   6 - (318x7418)
+fr  Score: 0.59692 - Precision: 0.62088 - Recall: 0.644 - Selected:   7 - (304x10682)
+bg  Score: 0.67033 - Precision: 0.63590 - Recall: 0.732 - Selected:   7 - (242x6050)
+bn  Score: 0.15627 - Precision: 0.10920 - Recall: 0.205 - Selected:   7 - (237x2513)
+sw  Score: 0.69897 - Precision: 0.64150 - Recall: 0.769 - Selected:   5 - (209x1447)
+gu  Score: 0.74043 - Precision: 0.63190 - Recall: 0.822 - Selected:   6 - (181x3677)
+hi  Score: 0.66881 - Precision: 0.64105 - Recall: 0.735 - Selected:   6 - (138x4042)
+it  Score: 0.85966 - Precision: 0.86816 - Recall: 0.885 - Selected:   4 - (73x1300)
+zh  Score: 0.66098 - Precision: 0.58653 - Recall: 0.733 - Selected:   9 - (68x3849)
+mr  Score: 0.71609 - Precision: 0.70419 - Recall: 0.850 - Selected:   9 - (24x999)
+fil Score: 0.72899 - Precision: 0.64902 - Recall: 0.797 - Selected:   7 - (23x516)
+as  Score: 0.37217 - Precision: 0.28248 - Recall: 0.450 - Selected:  12 - (13x641)
+my  Score: 0.69938 - Precision: 0.66825 - Recall: 0.833 - Selected:   4 - (12x206)
+km  Score: 0.94787 - Precision: 0.94091 - Recall: 0.958 - Selected:   4 - (11x505)
+kn  Score: 0.48801 - Precision: 0.46978 - Recall: 0.583 - Selected:  13 - (9x501)
+te  Score: 0.54833 - Precision: 0.38023 - Recall: 0.714 - Selected:  18 - (7x285)
+or  Score: 0.62391 - Precision: 0.55833 - Recall: 0.655 - Selected:  13 - (5x326)
+ta  Score: 0.50427 - Precision: 0.38133 - Recall: 0.600 - Selected:   9 - (5x216)
+ur  Score: 0.24348 - Precision: 0.21818 - Recall: 0.267 - Selected:   8 - (5x245)
+pnb Score: 0.75000 - Precision: 0.75000 - Recall: 0.750 - Selected:   8 - (4x184)
+ru  Score: 0.71512 - Precision: 0.65556 - Recall: 0.775 - Selected:  12 - (3x188)
+pl  Score: 0.72400 - Precision: 1.00000 - Recall: 0.688 - Selected:  29 - (3x319)
+swa Score: 0.16019 - Precision: 0.12875 - Recall: 0.183 - Selected:  43 - (3x495)
+tr  Score: 0.65706 - Precision: 0.57197 - Recall: 0.752 - Selected:  26 - (3x225)
+--------------------------------------------------------------------------------
+Eval Score: 0.66148 - Precision: 0.61517 - Recall: 0.733
+--------------------------------------------------------------------------------
+
+Calculate Similiarity for: sentence-transformers/LaBSE
+Calculate Similiarity for: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+
+Calculate mean of similiarities of 2 models per language
+
+Select content per language using dynamic threshold of 0.16
+
+------------------------------[Ensemble]------------------------------
+en  Score: 0.68640 - Precision: 0.65308 - Recall: 0.742 - Selected:   5 - (2806x65939)
+es  Score: 0.76713 - Precision: 0.71482 - Recall: 0.835 - Selected:   4 - (1177x30844)
+pt  Score: 0.79943 - Precision: 0.74148 - Recall: 0.860 - Selected:   6 - (343x10435)
+ar  Score: 0.54267 - Precision: 0.56559 - Recall: 0.662 - Selected:   4 - (318x7418)
+fr  Score: 0.61698 - Precision: 0.64399 - Recall: 0.662 - Selected:   7 - (304x10682)
+bg  Score: 0.70410 - Precision: 0.67926 - Recall: 0.756 - Selected:   7 - (242x6050)
+bn  Score: 0.17561 - Precision: 0.11966 - Recall: 0.230 - Selected:   7 - (237x2513)
+sw  Score: 0.71674 - Precision: 0.65091 - Recall: 0.789 - Selected:   5 - (209x1447)
+gu  Score: 0.77115 - Precision: 0.68613 - Recall: 0.839 - Selected:   5 - (181x3677)
+hi  Score: 0.71008 - Precision: 0.68468 - Recall: 0.774 - Selected:   7 - (138x4042)
+it  Score: 0.87877 - Precision: 0.88017 - Recall: 0.904 - Selected:   4 - (73x1300)
+zh  Score: 0.66702 - Precision: 0.59670 - Recall: 0.758 - Selected:   9 - (68x3849)
+mr  Score: 0.72963 - Precision: 0.69001 - Recall: 0.798 - Selected:  11 - (24x999)
+fil Score: 0.80584 - Precision: 0.69457 - Recall: 0.882 - Selected:   7 - (23x516)
+as  Score: 0.45620 - Precision: 0.31313 - Recall: 0.662 - Selected:   7 - (13x641)
+my  Score: 0.76245 - Precision: 0.82500 - Recall: 0.829 - Selected:   3 - (12x206)
+km  Score: 0.95030 - Precision: 0.94697 - Recall: 0.958 - Selected:   4 - (11x505)
+kn  Score: 0.63193 - Precision: 0.52910 - Recall: 0.744 - Selected:  10 - (9x501)
+te  Score: 0.77938 - Precision: 0.54730 - Recall: 0.946 - Selected:  16 - (7x285)
+or  Score: 0.72903 - Precision: 0.71429 - Recall: 0.733 - Selected:   8 - (5x326)
+ta  Score: 0.68842 - Precision: 0.45114 - Recall: 1.000 - Selected:   9 - (5x216)
+ur  Score: 0.35907 - Precision: 0.22956 - Recall: 0.448 - Selected:   9 - (5x245)
+pnb Score: 0.89423 - Precision: 0.82500 - Recall: 0.938 - Selected:   9 - (4x184)
+ru  Score: 0.70697 - Precision: 0.67778 - Recall: 0.767 - Selected:  11 - (3x188)
+pl  Score: 0.66623 - Precision: 1.00000 - Recall: 0.632 - Selected:  28 - (3x319)
+swa Score: 0.16744 - Precision: 0.11597 - Recall: 0.320 - Selected:  40 - (3x495)
+tr  Score: 0.71442 - Precision: 0.87698 - Recall: 0.696 - Selected:  23 - (3x225)
+--------------------------------------------------------------------------------
+Eval Score: 0.68489 - Precision: 0.64888 - Recall: 0.748
+--------------------------------------------------------------------------------

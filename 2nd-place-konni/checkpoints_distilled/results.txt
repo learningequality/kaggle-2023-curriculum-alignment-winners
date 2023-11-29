@@ -1,0 +1,78 @@
+Fold 0:
+
+Destillation:
+
+--------------------[Model: sentence-transformers/LaBSE]--------------------
+
+------------------------------[Margin: 0.16]------------------------------
+
+Calculate Scores
+en  Score: 0.66616 - Precision: 0.60653 - Recall: 0.740 - Selected:   6 - (2806x65939)
+es  Score: 0.73644 - Precision: 0.66218 - Recall: 0.824 - Selected:   5 - (1177x30844)
+pt  Score: 0.77856 - Precision: 0.71561 - Recall: 0.846 - Selected:   6 - (343x10435)
+ar  Score: 0.50818 - Precision: 0.43104 - Recall: 0.674 - Selected:   5 - (318x7418)
+fr  Score: 0.60073 - Precision: 0.61189 - Recall: 0.652 - Selected:   8 - (304x10682)
+bg  Score: 0.67563 - Precision: 0.63237 - Recall: 0.739 - Selected:   7 - (242x6050)
+bn  Score: 0.15726 - Precision: 0.10493 - Recall: 0.205 - Selected:   7 - (237x2513)
+sw  Score: 0.73082 - Precision: 0.66445 - Recall: 0.799 - Selected:   4 - (209x1447)
+gu  Score: 0.76743 - Precision: 0.65155 - Recall: 0.846 - Selected:   6 - (181x3677)
+hi  Score: 0.67166 - Precision: 0.63006 - Recall: 0.747 - Selected:   7 - (138x4042)
+it  Score: 0.87815 - Precision: 0.87568 - Recall: 0.898 - Selected:   4 - (73x1300)
+zh  Score: 0.62495 - Precision: 0.49920 - Recall: 0.743 - Selected:  10 - (68x3849)
+mr  Score: 0.67294 - Precision: 0.60749 - Recall: 0.737 - Selected:   9 - (24x999)
+fil Score: 0.78029 - Precision: 0.70404 - Recall: 0.865 - Selected:   8 - (23x516)
+as  Score: 0.63615 - Precision: 0.58234 - Recall: 0.685 - Selected:   5 - (13x641)
+my  Score: 0.76676 - Precision: 0.70139 - Recall: 0.879 - Selected:   3 - (12x206)
+km  Score: 0.93636 - Precision: 0.91469 - Recall: 0.958 - Selected:   5 - (11x505)
+kn  Score: 0.54854 - Precision: 0.43117 - Recall: 0.695 - Selected:  11 - (9x501)
+te  Score: 0.67359 - Precision: 0.51198 - Recall: 0.846 - Selected:  15 - (7x285)
+ta  Score: 0.57115 - Precision: 0.36437 - Recall: 0.900 - Selected:  12 - (5x216)
+ur  Score: 0.39250 - Precision: 0.33882 - Recall: 0.429 - Selected:  13 - (5x245)
+or  Score: 0.86237 - Precision: 0.74095 - Recall: 0.933 - Selected:   8 - (5x326)
+pnb Score: 0.55357 - Precision: 0.38690 - Recall: 0.688 - Selected:  10 - (4x184)
+ru  Score: 0.66397 - Precision: 0.63704 - Recall: 0.733 - Selected:  12 - (3x188)
+tr  Score: 0.69994 - Precision: 0.76032 - Recall: 0.691 - Selected:  23 - (3x225)
+pl  Score: 0.73391 - Precision: 0.99099 - Recall: 0.701 - Selected:  29 - (3x319)
+swa Score: 0.17508 - Precision: 0.10353 - Recall: 0.325 - Selected:  33 - (3x495)
+--------------------------------------------------------------------------------
+Eval Score: 0.66314 - Precision: 0.60230 - Recall: 0.741
+--------------------------------------------------------------------------------
+
+
+Destillation + Quantization:
+
+------------------------------[Margin: 0.16]------------------------------
+
+Calculate Scores
+en  Score: 0.66488 - Precision: 0.60661 - Recall: 0.738 - Selected:   6 - (2806x65939)
+es  Score: 0.73305 - Precision: 0.65837 - Recall: 0.821 - Selected:   5 - (1177x30844)
+pt  Score: 0.77509 - Precision: 0.71216 - Recall: 0.842 - Selected:   6 - (343x10435)
+ar  Score: 0.50597 - Precision: 0.43701 - Recall: 0.672 - Selected:   5 - (318x7418)
+fr  Score: 0.60038 - Precision: 0.61060 - Recall: 0.652 - Selected:   7 - (304x10682)
+bg  Score: 0.66621 - Precision: 0.63839 - Recall: 0.726 - Selected:   7 - (242x6050)
+bn  Score: 0.15630 - Precision: 0.10710 - Recall: 0.201 - Selected:   7 - (237x2513)
+sw  Score: 0.72686 - Precision: 0.66130 - Recall: 0.792 - Selected:   4 - (209x1447)
+gu  Score: 0.76495 - Precision: 0.65038 - Recall: 0.844 - Selected:   6 - (181x3677)
+hi  Score: 0.66584 - Precision: 0.62841 - Recall: 0.744 - Selected:   7 - (138x4042)
+it  Score: 0.88003 - Precision: 0.87689 - Recall: 0.910 - Selected:   4 - (73x1300)
+zh  Score: 0.62148 - Precision: 0.49262 - Recall: 0.740 - Selected:  10 - (68x3849)
+mr  Score: 0.67942 - Precision: 0.61202 - Recall: 0.741 - Selected:   9 - (24x999)
+fil Score: 0.76883 - Precision: 0.69141 - Recall: 0.853 - Selected:   8 - (23x516)
+as  Score: 0.64941 - Precision: 0.59089 - Recall: 0.700 - Selected:   6 - (13x641)
+my  Score: 0.77072 - Precision: 0.71806 - Recall: 0.879 - Selected:   3 - (12x206)
+km  Score: 0.94137 - Precision: 0.92832 - Recall: 0.958 - Selected:   4 - (11x505)
+kn  Score: 0.56601 - Precision: 0.44244 - Recall: 0.703 - Selected:  11 - (9x501)
+te  Score: 0.69733 - Precision: 0.53126 - Recall: 0.862 - Selected:  15 - (7x285)
+ta  Score: 0.55139 - Precision: 0.33815 - Recall: 0.867 - Selected:  12 - (5x216)
+ur  Score: 0.37277 - Precision: 0.31521 - Recall: 0.438 - Selected:  14 - (5x245)
+or  Score: 0.86951 - Precision: 0.74929 - Recall: 0.933 - Selected:   8 - (5x326)
+pnb Score: 0.60256 - Precision: 0.45000 - Recall: 0.688 - Selected:   9 - (4x184)
+ru  Score: 0.61692 - Precision: 0.63301 - Recall: 0.658 - Selected:  11 - (3x188)
+tr  Score: 0.72247 - Precision: 0.85610 - Recall: 0.696 - Selected:  23 - (3x225)
+pl  Score: 0.72880 - Precision: 0.99099 - Recall: 0.694 - Selected:  29 - (3x319)
+swa Score: 0.16938 - Precision: 0.09746 - Recall: 0.325 - Selected:  35 - (3x495)
+--------------------------------------------------------------------------------
+Eval Score: 0.66091 - Precision: 0.60188 - Recall: 0.739
+--------------------------------------------------------------------------------
+
+
